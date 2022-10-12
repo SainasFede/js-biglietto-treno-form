@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('/img/Dragon1.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5rem;
+}
+
+.container{
+  background-color: rgba(185, 110, 110, 0.993);
+  opacity: 0.8;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.utente{
+  margin-top: 5px;
+}
+
+.info,.utente{
+  padding: 5px;
+}
+
+.biglietto{
+  display: flex;
+  justify-content: space-between;
+}
+
+.biglietto p{
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid rgb(185, 144, 30);
+}
+
+.col{
+  padding: 20px;
+}
+
+.utente button, input{
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid rgb(185, 144, 30);
+  text-align: center;
+  font-size: 1.2rem;
+}
