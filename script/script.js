@@ -23,7 +23,7 @@ document.querySelector('#btn-input-utente').addEventListener('click', function()
   }
 
   // Presentation
-  output = `${costoKmUtente.toFixed(2)}mon. d'oro`
+  output = `${costoKmUtente.toFixed(2)} mon. d'oro`
   document.getElementById('costobiglietto').innerHTML += output;
 
 });
